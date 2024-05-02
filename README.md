@@ -1,6 +1,9 @@
+![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+
 <h1 align="center">Hi 👋, I'm Shreya Kanade</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<img src="image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABZVBMVEX/////8Oy80OctMltricHrX4D/wbNIscD/ynQbIlL4+PpnhsCGnsv/9vFkhL8cJVSjnK" img align="right" alt="Coding" width="400/>
+<img align="right"  src="https://user-images.githubusercontent.com/53329034/123502306-0fcdfc80-d669-11eb-87e4-d24cccfbbd00.gif" />
+
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shreyakanade" alt="shreyakanade" /></a> </p>
 
 
