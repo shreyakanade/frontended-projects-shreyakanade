@@ -2,7 +2,7 @@
 
 <h1 align="center">Hi 👋, I'm Shreya Kanade</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<img align="right"  src="https://user-images.githubusercontent.com/53329034/123502306-0fcdfc80-d669-11eb-87e4-d24cccfbbd00.gif" />
+<img align="centre"  src="https://user-images.githubusercontent.com/53329034/123502306-0fcdfc80-d669-11eb-87e4-d24cccfbbd00.gif" />
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shreyakanade" alt="shreyakanade" /></a> </p>
 
