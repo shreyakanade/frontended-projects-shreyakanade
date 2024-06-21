@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobboard</title>
+    <style>
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+    background-color: rgb(17, 186, 223);
+} 
+
+body { 
+	font-family: Arial, sans-serif; 
+	background-color: #746f6f; 
+	line-height: 1.6; 
+	color: #f4f4f4; 
+} 
+img{
+    border-radius: 100%;
+    box-sizing: content-box;
+    line-height: 1.5;
+    
+}
+header.right{
+    box-sizing: border-box;
+    box-shadow: #ff00ff;
+
+}
+
+
+header { 
+	background-color: #f4f4f4; 
+	color: #fff; 
+	text-align: center; 
+	padding: 1rem 0; 
+} 
+
+nav ul { 
+	list-style: none; 
+	display: flex; 
+	justify-content: center; 
+	background-color: #746f6f; 
+	padding: 0.5rem 0; 
+} 
+
+nav li { 
+	margin-right: 20px; 
+} 
+
+nav a { 
+	text-decoration: none; 
+	color: #ba1a1a; 
+	font-weight: bold; 
+	transition: color 0.3s; 
+} 
+
+nav a:hover { 
+	color: #00ff1a; 
+} 
+
+.search { 
+	text-align: center; 
+	margin-top: 2rem; 
+} 
+
+.search h2 { 
+	font-size: 24px; 
+	margin-bottom: 1rem; 
+} 
+
+.search form { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+} 
+
+.search input[type="text"] { 
+	padding: 10px; 
+	margin-right: 10px; 
+	border: 1px solid black; 
+	border-radius: 4px; 
+} 
+
+.search button { 
+	background-color: #ff6600; 
+	color: #f4f4f4; 
+	border: none; 
+	padding: 10px 20px; 
+	border-radius: 4px; 
+	cursor: pointer; 
+	transition: background-color 0.3s; 
+} 
+
+.search button:hover { 
+	background-color: #13e40f; 
+} 
+
+.job-listings { 
+	margin: 2rem 0; 
+} 
+
+.job-listings h2 { 
+	font-size: 24px; 
+	margin-bottom: 1rem; 
+	text-align: center; 
+} 
+
+.job-listings ul { 
+	list-style: none; 
+} 
+
+.job-listings li { 
+	background-color: #090909; 
+	border: 1px solid #ccc; 
+	padding: 20px; 
+	margin-bottom: 20px; 
+	box-shadow: 0 2px 4px rgba(229, 7, 7, 0.918); 
+} 
+
+.job-listings h3 { 
+	font-size: 20px; 
+	margin-bottom: 10px; 
+} 
+
+.job-listings p { 
+	font-size: 14px; 
+	margin-bottom: 10px; 
+} 
+
+.job-listings a { 
+	background-color: rgb(236, 140, 15); 
+	color: #f4f4f4; 
+	text-decoration: none; 
+	padding: 10px 20px; 
+	border-radius: 4px; 
+	display: inline-block; 
+	transition: background-color 0.3s; 
+} 
+
+.job-listings a:hover { 
+	background-color: #53af51; 
+} 
+
+footer { 
+	text-align: center; 
+	background-color: #ad3434; 
+	color: #df1111; 
+	padding: 1rem 0; 
+}
+
+    </style>
+    <script>
+        // Optional: Add interactivity or additional functionality using JavaScript
+// For example, you can add a smooth scroll effect to navigation links.
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+
+    </script>
+</head>
+<body>
+    <header>
+        <p>2000+ Job listed</p>
+        <h1>Find your Dream Job</h1>
+        <div class="header_right">
+            <div class="header_right-img">
+                <img src="c:\Users\Dell\Downloads\images (6).jpg" alt="">
+            </div>
+        </div>
+         
+         <h2>Find your dream job</h2>
+    </header>
+
+    <section >
+        <a href="#">Upload Your Resume</a>
+        <p>We provide online instant cash loans with 
+            approval that suit your term length.
+        </p>
+        
+    </section>
+    <nav> 
+        <ul> 
+            <li><a href="#">Home</a></li> 
+            <li><a href="#">Jobs</a></li> 
+            <li><a href="#">Companies</a></li> 
+            <li><a href="#">About Us</a></li> 
+            <li><a href="#">Contact</a></li> 
+        </ul> 
+    </nav> 
+    
+
+            <section class="search"> 
+                <h2>Find Your Dream Job</h2> 
+                <form action="#" method="get"> 
+                    <input type="text" name="keywords" 
+                        placeholder="Keywords"> 
+                        
+                   
+                    <select>
+                       <option> Select the Location</option> 
+                        <option>Location</option>
+                        <option>Pune</option>
+                        <option>Mumbai</option>
+                        <option>Bangaloer</option>
+                        <option>Chennai</option>
+                        <option>Ahmadabad</option>
+                        <option>Nagpur</option>
+                    </select>
+                    <input type="text" name="company" 
+                        placeholder="Company"> 
+                    <button type="submit"> 
+                        Search 
+                    </button> 
+                </form> 
+            </section> 
+            <li> 
+                <section id ="Latest Job opening">
+                    <ul> 
+                        <li> 
+                            <h3>Web Developer</h3> 
+                            <p>Company: ABC Tech</p> 
+                            <p>Description: Good Web Developer</p> 
+                            <a href="#">Apply Now</a> 
+                        </li> 
+                        </ul>
+                <h3>Graphic Designer</h3> 
+                <p>Company: XYZ Design</p>  
+                <p>Description:Good Graphic Designer</p> 
+                <a href="#">Apply Now</a> 
+            </li> 
+        </ul> 
+    </section> 
+      
+    
+</body>
+</html>
