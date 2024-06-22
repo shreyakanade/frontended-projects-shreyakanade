@@ -21,10 +21,12 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shreyakanade&show_icons=true&locale=en&layout=compact" alt="shreyakanade" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shreyakanade&show_icons=true&locale=en" alt="shreyakanade" /></p>
+
+
+
 ## Skills
-- **HTML **CSS **JS 
-- **REACT **node.js.
-  
+- **language:** HTML,CSS ,JS
+- **Frmaework:** REACT , Nodejs.
 ## 💼 My Projects
 
 
