@@ -1,4 +1,6 @@
-![MasterHead](https://1.bp.blogspot.com/-7A4WynwLsMw/XbBpCXG8fHI/AAAAAAAAMt4/uOa1bpLskYgrwGbllhSu2SDj_Mig8SXJQCLcBGAsYHQ/s1600/2000_600px.gif)
+# Hi , I'm ShreyaKanade! 👋
+![github-header-image (4)](https://github.com/shreyakanade/frontended-projects-shreyakanade/assets/145263277/1a4ea060-6f39-486d-97e6-a0b9b3ca0dc4)
+
 
 <h1 align="center">Hi 👋, I'm Shreya Kanade</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
@@ -19,4 +21,29 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shreyakanade&show_icons=true&locale=en&layout=compact" alt="shreyakanade" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=shreyakanade&show_icons=true&locale=en" alt="shreyakanade" /></p>
+## Skills
+- **HTML **CSS **JS 
+- **REACT **node.js.
+  
+## 💼 My Projects
 
+
+- [Project 1]: Landing Page
+  ![Project 1] !![0375fc0f-3679-4fad-8f39-e6dac2e0c546](https://github.com/shreyakanade/frontended-projects-shreyakanade/assets/145263277/fff370f3-6cc7-445f-8818-076c9758e33f)
+
+  
+  - [Project 2]: Amazon
+  ![Project 2] !![a65ab486-e258-4218-aff9-e3294e5ecb05](https://github.com/shreyakanade/frontended-projects-shreyakanade/assets/145263277/50a7a55e-c1f2-4c57-9464-43dc86447022)
+
+  
+  - [Project 3]: Jewellwery
+  ![Project 3] !![download (85)](https://github.com/shreyakanade/frontended-projects-shreyakanade/assets/145263277/5291344c-44f8-4b8b-bead-3c94c38823cc)
+
+  
+  - [Project 4]: Currencyconverter
+  ![Project 4] !![download (86)](https://github.com/shreyakanade/frontended-projects-shreyakanade/assets/145263277/46a4f440-7d59-42ef-83dd-c9c3c69866d1)
+
+
+## 📫 How to reach me
+
+- [LinkedIn](https://www.linkedin.com/in/shreya-kanade-99666b229)
