@@ -1,0 +1,195 @@
+!DOCTYPE html>
+
+<html lang="en">
+ 
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, 
+
+                                   initial-scale=1.0">
+
+    <title>The Age Calculator</title>
+
+    <link href=
+"https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+
+          rel="stylesheet">
+
+</head>
+ 
+
+<body class="bg-gray-100 flex items-center 
+
+             justify-center h-screen">
+
+    <div class="border border-green-500 p-8 
+
+                rounded-lg shadow-md" 
+
+         style="border-color: rgb(0, 94, 128); background-color: white;">
+
+        <h1 class="text-3xl font-semibold 
+
+                   text-center mb-8 text-green-700">
+
+              Age Calculator
+
+          </h1>
+
+        <div class="flex flex-col mb-4">
+
+            <label for="inputDob" class="text-gray-700">
+
+                  Enter your Date of Birth
+
+              </label>
+
+            <input id="inputDob" type="date"
+
+                class="border border-gray-300 
+
+                       rounded-md px-4 py-2 
+
+                       focus:outline-none 
+
+                       focus:border-blue-500">
+
+        </div>
+
+        <div class="flex flex-col mb-4">
+
+            <label for="cdate" class="text-gray-700">
+
+                  Current Date
+
+              </label>
+
+            <input id="cdate" type="date"
+
+                class="border border-gray-300 
+
+                       rounded-md px-4 py-2 focus:outline-none 
+
+                       focus:border-blue-500">
+
+        </div>
+
+        <div class="flex justify-between">
+
+            <button type="button" onclick="getDOB()"
+
+                class="bg-blue-500 text-white 
+
+                       font-semibold px-4 py-2 rounded">
+
+                  Calculate
+
+              </button>
+
+            <button type="button" onclick="clearDates()"
+
+                class="bg-gray-500 text-white 
+
+                       font-semibold px-4 py-2 rounded">
+
+                  Clear
+
+              </button>
+
+        </div>
+
+        <div id="currentAge" class="text-center mt-4"></div>
+
+    </div>
+
+    <script>
+
+        function getDOB() {
+
+            let inputDob = 
+
+                document.getElementById("inputDob").value;
+
+            let currentDate = 
+
+                document.getElementById("cdate").value;
+
+            if (!inputDob || !currentDate) {
+
+                alert("Please fill in both Date of Birth and Current Date.");
+
+                return;
+
+            }
+
+            let dob = new Date(inputDob);
+
+            let day = dob.getDate();
+
+            let month = dob.getMonth();
+
+            let year = dob.getFullYear();
+
+            let now = new Date(currentDate);
+
+            let yearDiff = now.getFullYear() - year;
+
+            let monthDiff = now.getMonth() - month;
+
+            let dateDiff = now.getDate() - day;
+
+            if (yearDiff < 0) {
+
+                document.getElementById("currentAge").innerHTML = 
+
+                      "Invalid Date";
+
+            } else {
+
+                if (monthDiff <= 0 && dateDiff < 0) {
+
+                    yearDiff--;
+
+                    monthDiff = 12 + monthDiff;
+
+                }
+
+                if (dateDiff < 0) {
+
+                    dateDiff = 30 + dateDiff;
+
+                    monthDiff--;
+
+                }
+
+                document.getElementById("currentAge")
+
+                    .innerHTML = 
+
+                      `Your current Age is ${yearDiff} 
+
+                        years ${monthDiff} months ${dateDiff} days`;
+
+            }
+
+        }
+
+        function clearDates() {
+
+            document.getElementById("inputDob").value = "";
+
+            document.getElementById("cdate").value = "";
+
+            document.getElementById("currentAge").innerHTML = "";
+
+        }
+
+    </script>
+
+</body>
+ 
+
+</html>
